@@ -1,0 +1,31 @@
+Variable,Type,Description
+customerID,Numeric,Customer ID
+children,Categorical,"There are children present in the customer's household  {true, false}"
+credit,Categorical,"The customers credit rating  {a, aa, b, c, de, gy, z}"
+creditCard,Categorical,"The customer owns a credit card  {true, false}"
+custcare,Numeric,average number of calls to customer calls in the last 6 months
+custcareTotal,Numeric,total calls to customer calls in the last 6 months
+custcareLast,Numeric,calls to customer calls in the last month
+directas,Numeric,The number of directory assisted calls made in the last 6 months
+directasLast,Numeric,The number of directory assisted calls made last month
+dropvce,Numeric,The number of calls dopped in the last 6 months
+dropvceLast,Numeric,The number of calls dopped the last month
+income,Numeric,The cutomer's income {0 - 9}
+marry,Categorical,"The customer's marital status {yes, no, unknown}"
+mou,Numeric,Number if minutes last month
+mouTotal,Numeric,The total number of minutes used in the last 6 months
+mouChange,Numeric,% change in minutes
+occupation,Categorical,"The occupation of the cutomer { clerical, crafts, homemaker, professional, retired, self-employed,  student}"
+outcalls,Numeric,The number of calls made 
+overage,Numeric,The number of minutes over the customer's bundle used this month
+overageMax,Numeric,Max overage
+overageMin,Numeric,Min overage
+peakOffPeak,Numeric,The total number of peak calls made the last 6 months
+peakOffPeakLast,Numeric,The total number of peak calls made last month
+recchrge,Numeric,The recurring bundle charge this month
+regionType,Categorical,"The type of region in which the customer lives {rural, suburban, town}"
+revenue,Numeric,Reveue from customer last month
+revenueTotal,Numeric,total revenue in the last 6 months
+revenueChange,Numeric,% change in revenue
+roam,Numeric,The  number of roaming events in the time period
+churn,Categorical,Flag indicating if the customer has churned
